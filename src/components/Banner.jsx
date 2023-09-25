@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
-    <div className="py-28 sm:py-40 bg-[#FFFFFFF2]">
-      <section className="flex flex-col justify-center items-center gap-8">
+    <div className=" bg-[url('../../public/images/Rectangle-4281.png')] bg-cover bg-center  ">
+      <section className="py-28 sm:py-40 bg-white bg-opacity-95 flex flex-col justify-center items-center gap-8 ">
         <h1 className="font-bold text-2xl md:text-4xl text-center text-[#0B0B0B]">
           I Grow By Helping People In Need
         </h1>
