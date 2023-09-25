@@ -7,7 +7,7 @@
     "description": "Your donation will provide clean and safe drinking water to children in underserved areas, improving their health and well-being.",
     "donate_amount": 290,
     "card_bg": "#0052FF26",
-    "text_color": "#0052FF",
+    "color": "#0052FF",
     "category_bg": "#0052FF33"
   },
   {
@@ -18,7 +18,7 @@
     "description": "Support our mission to provide quality education to children worldwide, empowering them to build a brighter future for themselves and their communities.",
     "donate_amount": 290,
     "card_bg": "#FF444A26",
-    "text_color": "#FF444A",
+    "color": "#FF444A",
     "category_bg": "#FF444A33"
   },
   {
@@ -29,7 +29,7 @@
     "description": "Donate gently-used clothing to help keep underprivileged children warm during cold seasons and ensure they have access to essential resources.",
     "donate_amount": 290,
     "card_bg": "#79C23F26",
-    "text_color": "#79C23F",
+    "color": "#79C23F",
     "category_bg": "#79C23F33"
   },
   {
@@ -40,7 +40,7 @@
     "description": "Your support will provide nutritious meals to communities affected by disasters and crises, ensuring everyone has access to food and sustenance.",
     "donate_amount": 290,
     "card_bg": "#F8714726",
-    "text_color": "#F87147",
+    "color": "#F87147",
     "category_bg": "#F8714733"
   },
   {
@@ -51,7 +51,7 @@
     "description": "Your donation will provide clean and safe drinking water to children in underserved areas, improving their health and well-being.",
     "donate_amount": 290,
     "card_bg": "#0052FF26",
-    "text_color": "#0052FF",
+    "color": "#0052FF",
     "category_bg": "#0052FF33"
   },
   {
@@ -62,7 +62,7 @@
     "description": "Support our mission to provide quality education to children worldwide, empowering them to build a brighter future for themselves and their communities.",
     "donate_amount": 290,
     "card_bg": "#FF444A26",
-    "text_color": "#FF444A",
+    "color": "#FF444A",
     "category_bg": "#FF444A33"
   },
   {
@@ -73,7 +73,7 @@
     "description": "Donate gently-used clothing to help keep underprivileged children warm during cold seasons and ensure they have access to essential resources.",
     "donate_amount": 290,
     "card_bg": "#79C23F26",
-    "text_color": "#79C23F",
+    "color": "#79C23F",
     "category_bg": "#79C23F33"
   },
   {
@@ -84,7 +84,7 @@
     "description": "Your support will provide nutritious meals to communities affected by disasters and crises, ensuring everyone has access to food and sustenance.",
     "donate_amount": 290,
     "card_bg": "#F8714726",
-    "text_color": "#F87147",
+    "color": "#F87147",
     "category_bg": "#F8714733"
   },
   {
@@ -95,7 +95,7 @@
     "description": "Your donation will provide clean and safe drinking water to children in underserved areas, improving their health and well-being.",
     "donate_amount": 290,
     "card_bg": "#0052FF26",
-    "text_color": "#0052FF",
+    "color": "#0052FF",
     "category_bg": "#0052FF33"
   },
   {
@@ -106,7 +106,7 @@
     "description": "Support our mission to provide quality education to children worldwide, empowering them to build a brighter future for themselves and their communities.",
     "donate_amount": 290,
     "card_bg": "#FF444A26",
-    "text_color": "#FF444A",
+    "color": "#FF444A",
     "category_bg": "#FF444A33"
   },
   {
@@ -117,7 +117,7 @@
     "description": "Donate gently-used clothing to help keep underprivileged children warm during cold seasons and ensure they have access to essential resources.",
     "donate_amount": 290,
     "card_bg": "#79C23F26",
-    "text_color": "#79C23F",
+    "color": "#79C23F",
     "category_bg": "#79C23F33"
   },
   {
@@ -128,7 +128,7 @@
     "description": "Your support will provide nutritious meals to communities affected by disasters and crises, ensuring everyone has access to food and sustenance.",
     "donate_amount": 290,
     "card_bg": "#F8714726",
-    "text_color": "#F87147",
+    "color": "#F87147",
     "category_bg": "#F8714733"
   }
 ]
