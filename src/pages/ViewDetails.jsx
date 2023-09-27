@@ -11,9 +11,8 @@ const ViewDetails = () => {
     const findCard = cards.find((item) => item.id === id);
     setCard(findCard);
   }, [id, cards]);
-  console.log(card);
   return (
-    <div className="mx-2">
+    <div>
       <Details card={card} />
     </div>
   );

@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import swal from "sweetalert";
 const Details = ({ card }) => {
-  const { title, cover, donate_amount, description, color } = card || {};
+  const { title, cover, donate_amount, description, color, id } = card || {};
 
   const handleDonation = () => {
     const addedDonationList = [];
@@ -12,9 +12,16 @@ const Details = ({ card }) => {
       localStorage.setItem("donate", JSON.stringify(addedDonationList));
       swal("Good job!", "Successfully Donated!", "success");
     } else {
-      addedDonationList.push(...donationList, card);
+      const isExits = donationList.find((item) => item.id === id);
+      if (!isExits){
+        addedDonationList.push(...donationList, card);
       localStorage.setItem("donate", JSON.stringify(addedDonationList));
       swal("Good job!", "Successfully Donated!", "success");
+      }
+      else{
+        swal("Oops!", "Already Donated!", "error");
+      }
+      
     }
   };
 

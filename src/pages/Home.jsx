@@ -5,7 +5,7 @@ import Cards from "../components/Cards";
 const Home = () => {
   const cards = useLoaderData();
   return (
-    <div className="mx-2">
+    <div>
       <Banner />
       <Cards cards={cards} />
     </div>
