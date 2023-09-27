@@ -4,21 +4,22 @@ import MainLayout from "../layouts/MainLayout";
 import Donation from "../pages/Donation";
 import Statistics from "../pages/Statistics";
 import ViewDetails from "../pages/ViewDetails";
-
+import ErrorPage from "../pages/Error";
 
 const routes = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
-        element: <Home/>,
+        element: <Home />,
         loader: () => fetch(`../../public/donationCampaign.json`),
       },
       {
-        path:"/details/:id",
-        element:<ViewDetails/>,
+        path: "/details/:id",
+        element: <ViewDetails />,
         loader: () => fetch(`../../public/donationCampaign.json`),
       },
       {

@@ -5,7 +5,11 @@ const Navbar = () => {
     <div>
       <div className="flex flex-col justify-between items-center py-5 font-bold text-lg text-[#0B0B0B] mx-2 gap-4 bg-[#FFFFFFF2] sm:flex-row ">
         <div>
-          <img src="https://i.ibb.co/dp6hLxZ/Logo.png" alt="" className="bg-white" />
+          <img
+            src="https://i.ibb.co/dp6hLxZ/Logo.png"
+            alt=""
+            className="bg-white"
+          />
         </div>
         <nav>
           <ul className="flex gap-6 ">

@@ -18,32 +18,32 @@ const Donation = () => {
   }, []);
 
   return (
-    <div>
+    <div className="mx-2 py-7">
       {notFound ? (
         <p className="h-[80vh] flex justify-center items-center">{notFound}</p>
       ) : (
         <div>
-          <div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10">
-              {isShow
-                ? donate.map((card) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10 ">
+            {isShow
+              ? donate.map((card) => (
+                  <DonationCard key={card.id} card={card}></DonationCard>
+                ))
+              : donate
+                  .slice(0, 4)
+                  .map((card) => (
                     <DonationCard key={card.id} card={card}></DonationCard>
-                  ))
-                : donate
-                    .slice(0, 4)
-                    .map((card) => (
-                      <DonationCard key={card.id} card={card}></DonationCard>
-                    ))}
-            </div>
+                  ))}
+          </div>
 
-            <div className="py-10">
+          <div className="py-10">
+            {donate.length > 4 && (
               <button
                 onClick={() => setIsShow(!isShow)}
                 className="px-5  py-2 rounded  bg-green-700 text-white block mx-auto "
               >
-                {isShow ? "" : "See All"}
+                {isShow ? "See less" : "See more"}
               </button>
-            </div>
+            )}
           </div>
         </div>
       )}
