@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "cover": "../../public/images/Health.png",
+    "cover": "https://i.ibb.co/D1x039n/Health.png",
     "category": "Health",
     "title": "Clean Water for Children",
     "description": "Your donation will provide clean and safe drinking water to children in underserved areas, improving their health and well-being.",
@@ -12,7 +12,7 @@
   },
   {
     "id": "2",
-    "cover": "../../public/images/Education.png",
+    "cover": "https://i.ibb.co/ykgkPBj/Education.png",
     "category": "Education",
     "title": "Good education",
     "description": "Support our mission to provide quality education to children worldwide, empowering them to build a brighter future for themselves and their communities.",
@@ -23,7 +23,7 @@
   },
   {
     "id": "3",
-    "cover": "../../public/images/Clothing.png",
+    "cover": "https://i.ibb.co/nc9SVmd/Clothing.png",
     "category": "Clothing",
     "title": "Used Clothing Drive",
     "description": "Donate gently-used clothing to help keep underprivileged children warm during cold seasons and ensure they have access to essential resources.",
@@ -34,7 +34,7 @@
   },
   {
     "id": "4",
-    "cover": "../../public/images/Food.png",
+    "cover": "https://i.ibb.co/6tdRtKN/Food.png",
     "category": "Food",
     "title": "Better Food for Everyone",
     "description": "Your support will provide nutritious meals to communities affected by disasters and crises, ensuring everyone has access to food and sustenance.",
@@ -45,7 +45,7 @@
   },
   {
     "id": "5",
-    "cover": "../../public/images/Health.png",
+    "cover": "https://i.ibb.co/D1x039n/Health.png",
     "category": "Health",
     "title": "Clean Water for Children",
     "description": "Your donation will provide clean and safe drinking water to children in underserved areas, improving their health and well-being.",
@@ -56,7 +56,7 @@
   },
   {
     "id": "6",
-    "cover": "../../public/images/Education.png",
+    "cover": "https://i.ibb.co/ykgkPBj/Education.png",
     "category": "Education",
     "title": "Good education",
     "description": "Support our mission to provide quality education to children worldwide, empowering them to build a brighter future for themselves and their communities.",
@@ -67,7 +67,7 @@
   },
   {
     "id": "7",
-    "cover": "../../public/images/Clothing.png",
+    "cover": "https://i.ibb.co/nc9SVmd/Clothing.png",
     "category": "Clothing",
     "title": "Used Clothing Drive",
     "description": "Donate gently-used clothing to help keep underprivileged children warm during cold seasons and ensure they have access to essential resources.",
@@ -78,7 +78,7 @@
   },
   {
     "id": "8",
-    "cover": "../../public/images/Food.png",
+    "cover": "https://i.ibb.co/6tdRtKN/Food.png",
     "category": "Food",
     "title": "Better Food for Everyone",
     "description": "Your support will provide nutritious meals to communities affected by disasters and crises, ensuring everyone has access to food and sustenance.",
@@ -89,7 +89,7 @@
   },
   {
     "id": "9",
-    "cover": "../../public/images/Health.png",
+    "cover": "https://i.ibb.co/D1x039n/Health.png",
     "category": "Health",
     "title": "Clean Water for Children",
     "description": "Your donation will provide clean and safe drinking water to children in underserved areas, improving their health and well-being.",
@@ -100,7 +100,7 @@
   },
   {
     "id": "10",
-    "cover": "../../public/images/Education.png",
+    "cover": "https://i.ibb.co/ykgkPBj/Education.png",
     "category": "Education",
     "title": "Good education",
     "description": "Support our mission to provide quality education to children worldwide, empowering them to build a brighter future for themselves and their communities.",
@@ -111,7 +111,7 @@
   },
   {
     "id": "11",
-    "cover": "../../public/images/Clothing.png",
+    "cover": "https://i.ibb.co/nc9SVmd/Clothing.png",
     "category": "Clothing",
     "title": "Used Clothing Drive",
     "description": "Donate gently-used clothing to help keep underprivileged children warm during cold seasons and ensure they have access to essential resources.",
@@ -122,7 +122,7 @@
   },
   {
     "id": "12",
-    "cover": "../../public/images/Food.png",
+    "cover": "https://i.ibb.co/6tdRtKN/Food.png",
     "category": "Food",
     "title": "Better Food for Everyone",
     "description": "Your support will provide nutritious meals to communities affected by disasters and crises, ensuring everyone has access to food and sustenance.",

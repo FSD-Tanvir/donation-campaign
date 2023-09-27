@@ -1,3 +1,4 @@
+
 import { useLoaderData } from "react-router-dom";
 import Banner from "../components/Banner";
 import Cards from "../components/Cards";
@@ -11,5 +12,7 @@ const Home = () => {
     </div>
   );
 };
+
+
 
 export default Home;
