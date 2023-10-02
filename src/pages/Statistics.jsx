@@ -4,13 +4,14 @@ import { useEffect, useState } from "react";
 
 const Statistics = () => {
   const cards = useLoaderData();
-  const [yourDonate, setDonate] = useState([]);
-  const [totalAmount, setTotalAmount] = useState([]);
+  const [yourDonate, setDonate] = useState(null);
+  const [totalAmount, setTotalAmount] = useState(null);
   const [notFound, setNotfound] = useState(false);
   const percentage = [];
 
   useEffect(() => {
     const donationList = JSON.parse(localStorage.getItem("donate"));
+
     if (donationList) {
       const total = donationList.reduce(
         (preValue, currentValue) => preValue + currentValue.donate_amount,
@@ -24,6 +25,8 @@ const Statistics = () => {
       setTotalAmount(sumOfTotalDonate);
     } else {
       setNotfound("No Data Found");
+      // setDonate('0');
+      // setTotalAmount(12)
     }
   }, [cards]);
 
@@ -31,6 +34,7 @@ const Statistics = () => {
     const percent = (yourDonate / totalAmount) * 100;
     percentage.push(percent, 100 - percent);
   }
+
   return (
     <div>
       {notFound ? (

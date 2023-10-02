@@ -6,7 +6,7 @@ import Statistics from "../pages/Statistics";
 import ViewDetails from "../pages/ViewDetails";
 import ErrorPage from "../pages/Error";
 
-const routes = createBrowserRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
@@ -35,4 +35,4 @@ const routes = createBrowserRouter([
   },
 ]);
 
-export default routes;
+export default router;
